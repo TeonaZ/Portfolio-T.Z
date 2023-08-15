@@ -15,7 +15,7 @@ function Projects() {
           <Heading title='Projects' />
         </div>
         <Row className='justify-content-center'>
-          <ProjectsBox img={img1svg} href={"https://www.careerplantoday.com/"} title='Career Plan Today' />
+          <ProjectsBox img={img1svg} href={"https://github.com/TeonaZ"} title='GitHub' />
           {/* <ProjectsBox img={img2} title='Therapy AI' cost='Cost $12,783' /> */}
           {/* <ProjectsBox img={img3} title='University of Notre Dame' cost='Cost $12,783' /> */}
         </Row>

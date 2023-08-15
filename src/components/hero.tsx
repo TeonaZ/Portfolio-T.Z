@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/esm/Button";
 import Image from "react-bootstrap/Image";
-import eric from "../assets/eric.png";
+import Teona from "../assets/Teona.jpg";
 // import resumePDF from "../assets/EricHoover-Resume.pdf";
 
 function Hero() {
@@ -13,13 +13,13 @@ function Hero() {
         <Row className='flex-column-reverse flex-lg-row'>
           <Col className='hero-content text-lg-start text-center'>
             <h1 className='hero-heading'>
-              <div>Hello, I'm</div>
-              <span>Eric Hoover</span>
+              <div>Hello, My name is</div>
+              <span>Teona Zaalishvili</span>
             </h1>
-            <p className='sub-heading'>Software Engineer | Empathy Advocate | MBA</p>
+            <p className='sub-heading'>Software Engineer</p>
             <div className=''>
               <div className='' style={{ display: "inline-block" }}>
-                <Button href={"https://www.linkedin.com/in/hoov/"} className='custom-btn'>
+                <Button href={"https://www.linkedin.com/in/teona-zaalishvili/"} className='custom-btn'>
                   LinkedIn
                 </Button>
               </div>
@@ -33,7 +33,7 @@ function Hero() {
           </Col>
           <Col>
             <div className='hero-image-cover'>
-              <Image src={eric} alt='profile' className='hero-image' />
+              <Image src={Teona} alt='profile' className='hero-image' />
             </div>
           </Col>
         </Row>

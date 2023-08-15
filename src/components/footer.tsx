@@ -17,7 +17,7 @@ function Footer() {
           <Col lg={4} md={6} sm={12} className='mb-3'>
             <ListGroup>
               <ListGroup.Item className='logo'>
-                <h4>Eric Hoover</h4>
+                <h4>Teona Zaalishvili</h4>
               </ListGroup.Item>
               <ListGroup.Item>Thank you for visiting my portfolio!</ListGroup.Item>
             </ListGroup>
@@ -29,7 +29,7 @@ function Footer() {
               </ListGroup.Item>
               <ListGroup.Item>
                 {" "}
-                <a href='https://www.linkedin.com/in/hoov/'>LinkedIn</a>{" "}
+                <a href='https://www.linkedin.com/in/teona-zaalishvili/'>LinkedIn</a>{" "}
               </ListGroup.Item>
               <ListGroup.Item> {/* <a href='#'>About Us</a> */}</ListGroup.Item>
               <ListGroup.Item> {/* <a href='#'>Contact Us</a> */}</ListGroup.Item>
