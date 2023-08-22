@@ -3,6 +3,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import ListGroup from "react-bootstrap/ListGroup";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 import icon1 from "../assets/fb.svg";
 import icon2 from "../assets/tw.svg";
@@ -31,7 +33,10 @@ function Footer() {
                 {" "}
                 <a href='https://www.linkedin.com/in/teona-zaalishvili/'>LinkedIn</a>{" "}
               </ListGroup.Item>
-              <ListGroup.Item> {/* <a href='#'>About Us</a> */}</ListGroup.Item>
+              <ListGroup.Item>  <a href='mailto:teonazaalishvili2@gmail.com'>
+                Email-
+                  <FontAwesomeIcon icon={faEnvelope} className='email-icon' />
+                </a></ListGroup.Item>
               <ListGroup.Item> {/* <a href='#'>Contact Us</a> */}</ListGroup.Item>
             </ListGroup>
           </Col>

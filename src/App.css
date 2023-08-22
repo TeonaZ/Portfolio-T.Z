@@ -15,7 +15,7 @@ html {
 
 body {
   color: #000;
-  background: #fff;
+  background: #F5F5DC;
   font-family: "Poppins", sans-serif;
   min-width: 320px;
   -webkit-font-smoothing: antialiased;
@@ -101,15 +101,15 @@ p {
   font-size: 18px;
   color: #fff;
   border-radius: 50px;
-  background-color: #58cc02;
+  background-color: #9370DB;
   font-weight: 600;
-  border: 1px solid #58cc02;
+  border: 1px solid #9370DB;
 }
 
 .custom-btn:hover {
-  background-color: #9be067;
+  background-color: #66B2FF;
   transition: all 0.2s;
-  border: 1px solid #9be067;
+  border: 1px solid #66B2FF;
 }
 
 .btn-transparent button {
@@ -211,7 +211,7 @@ p {
 }
 
 .hero-heading span {
-  color: #58cc02;
+  color: #9370DB;
 }
 
 .hero .custom-btn {
@@ -315,7 +315,7 @@ p {
 
 /* Projects */
 .projects {
-  background-color: #58cc02;
+  background-color: #9370DB;
   padding: 40px 0;
 }
 
@@ -414,16 +414,17 @@ p {
   padding: 10px 0;
   font-weight: 500;
   font-size: 20px;
+  background-color: #F5F5DC;
 }
 
 .about-us .list-group-item p {
   width: 80%;
-}
+};
 
 .check {
   width: 40px;
   height: 40px;
-  background-color: #58cc02;
+  background-color: #9370DB;
   border-radius: 50%;
   display: flex;
   justify-content: center;
