@@ -42,7 +42,8 @@ function About() {
                     />
                   </svg>
                 </div>
-                <p>Certifications incude AWS Developer Associate, AWS Cloud Practitioner, and Certified SAFe® 5 Practitioner</p>
+                <p>Certifications  <ul> <li>NYU BOOTCAMP - Software Engineer</li> <li>Certifications KInfosys - Quality Assurance</li></ul></p>
+              
               </ListGroup.Item>
               <ListGroup.Item className='d-flex align-items-center'>
                 <div className='check'>
